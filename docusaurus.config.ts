@@ -48,7 +48,9 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
+    colorMode: {
+      defaultMode: "dark",
+    },
     navbar: {
       title: "Helpr Docs",
       items: [
