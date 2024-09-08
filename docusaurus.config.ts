@@ -4,7 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Helpr Docs",
-  tagline: "Coming Soon!",
+  tagline: "Home Page Coming Soon!",
   favicon: "https://helpr.gg/icon.ico",
 
   // Set the production url of your site here
@@ -50,6 +50,12 @@ const config: Config = {
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
+    },
+    announcementBar: {
+      id: "in_development",
+      content: "Still Under Heavy Development!!!",
+      isCloseable: true,
+      backgroundColor: "#25c2a0",
     },
     navbar: {
       title: "Helpr Docs",
