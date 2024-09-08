@@ -18,7 +18,7 @@ export default function Home(): JSX.Element {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
       </div>
       <div className={styles.buttons}>
-        <Link className="button button--secondary button--lg" to="/docs">
+        <Link className="button button--secondary button--lg" to="/docs/getting-started/intro">
           Jump to Docs
         </Link>
       </div>
