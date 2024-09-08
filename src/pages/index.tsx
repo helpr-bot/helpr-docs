@@ -8,7 +8,7 @@ import styles from "./index.module.css";
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
+    <Layout description="Description will go into a meta tag in <head />">
       <div className={styles.main}>
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
