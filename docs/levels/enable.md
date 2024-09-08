@@ -9,6 +9,8 @@ This command will not work if levels are already enbaled on you server
 
 ## Usage
 `/levels enable`  Enableds levels on your server and sets up with the default config
+:::info[`Manage Guild`]
+:::
 
 ## Default Config
 ### Level Up Message

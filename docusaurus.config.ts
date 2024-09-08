@@ -18,7 +18,7 @@ const config: Config = {
   organizationName: "helpr-bot", // Usually your GitHub org/user name.
   projectName: "helpr-docs", // Usually your repo name.
 
-  onBrokenLinks: "warn",
+  onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   trailingSlash: false,
 
@@ -81,8 +81,8 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Intro",
-              to: "/docs/intro",
+              label: "Getting Started",
+              to: "/docs/getting-started/command-syntax",
             },
           ],
         },
