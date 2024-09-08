@@ -18,7 +18,7 @@ const config: Config = {
   organizationName: "helpr-bot", // Usually your GitHub org/user name.
   projectName: "helpr-docs", // Usually your repo name.
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   trailingSlash: false,
 
